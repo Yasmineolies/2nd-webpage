@@ -1,0 +1,267 @@
+body {
+    font-family: sans-serif; 
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    padding: 8px; 
+}
+
+#backdrop {
+    background-color: #f1f0f0;
+    position: absolute;
+    height: 1000px;
+    width: 100%;  
+    
+}
+
+#line {
+    background-color: white;
+    height: 3px;
+    width: 80%;
+    margin: auto; 
+}
+
+#navbar {
+    text-transform: uppercase;
+    font-weight: 500;
+    display: table;
+    width: 80%;
+    margin: auto;
+}
+
+#backdrop span {
+color: orange; 
+}
+
+#home-about-contact {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: .8em;
+    margin: 0;
+    padding: 0;
+    width: 34%;
+}
+
+#home-about-contact ul {
+    padding: 0;
+    margin: 0;
+}
+
+#folio {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 1.3em;
+    text-align: center;
+    width: 33%;
+    
+    
+}
+
+#socialmedia-icons {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: right;
+    width: 33%;
+}
+
+.socialm-style {
+    display: inline; 
+    padding-left: 15px;
+}
+
+.socialm-style i {
+   
+}
+
+#description {
+    position: relative; 
+    top: 180px; 
+    left: 10%; 
+}
+
+#description h3 {
+    font-weight: 100;
+}
+
+#description h1 {
+    font-weight: 800;
+    line-height: 0em;
+}
+
+#description p {
+    padding-top: 10px;
+    width: 50%;
+    color: grey; 
+}
+
+#backdrop img {
+    width: 400px; 
+    position: relative;
+    left: 65%; 
+
+}
+
+#cover {
+    background-color: white;
+    width: 80%;
+    margin-left: auto; 
+    margin-right: auto; 
+    position: relative; 
+    top: 580px;
+    margin-top: 0;
+    border-radius: 35px 35px 0 0;
+    box-shadow: 5px -5px 20px 10px rgba(69, 69, 69, 0.1);
+}
+
+#cover #button-setup {
+    padding-top: 40px;
+}
+
+#cover button {
+    padding: 13px 23px;
+    background-color: white; 
+    border: solid rgb(148, 148, 148) 2px;
+    color: grey;
+    border-radius: 4px; 
+    font-size: .6em;
+    font-weight: 600;
+    letter-spacing: .1em;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer; 
+}
+
+#cover button:hover {
+    background-color: rgb(148, 148, 148); 
+    color: white;
+}
+
+#cover {
+   
+}
+
+#navbar2 {
+    padding: 30px 30px; 
+    text-align: center;
+    font-size: .85em;
+    color: rgb(148, 148, 148);
+    font-weight: 600;
+}
+
+#navbar2 ul li {
+    padding-right: 25px;
+}
+
+
+.gallery {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.gallery img {
+    display: inline;
+    width: 31%;
+    padding: 5px; 
+
+}
+
+.gallery {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#socialmedia-icons2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+  
+}
+
+.socialm-style2 {
+    display: inline-block; 
+    padding: 20px 20px 0 20px; 
+    color: rgb(148, 148, 148);
+   
+}
+
+#copyright {
+    color: rgb(148, 148, 148);
+    font-size: .7em;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#rectangle-elements {
+    position: relative; 
+}
+
+#rectangle {
+    width: 200px;
+	height: 110px;
+    border: 2px solid rgba(148, 148, 148, .2);
+    position: absolute;
+    top: -10px;
+    left: -165px;
+    border-radius: 3px;
+    transform: rotate(-17deg);
+    -ms-transform: rotate(-17deg);
+    -webkit-transform: rotate(-17deg);
+}
+
+#rectangle1 {
+    width: 200px;
+	height: 110px;
+    border: 2px solid rgba(148, 148, 148, .2);
+    position: absolute; 
+    top: 120px;
+    left: -120px;
+    border-radius: 3px;
+    transform: rotate(-17deg);
+    -ms-transform: rotate(-17deg);
+    -webkit-transform: rotate(-17deg);
+}
+
+#rectangle2 {
+    width: 130px;
+	height: 110px;
+    border: 2px solid rgba(148, 148, 148, .2);
+    position: absolute; 
+    top: 280px;
+    left: 0px;
+    border-radius: 3px;
+    transform: rotate(-17deg);
+    -ms-transform: rotate(-17deg);
+    -webkit-transform: rotate(-17deg);
+    -webkit-transition: transform 2s ease-in-out;
+    transition: transform 2s ease-in-out;
+}
+
+#rectangle3 {
+    width: 150px;
+	height: 120px;
+    border: 2px solid rgba(148, 148, 148, .2);
+    position: absolute; 
+    top: 200px;
+    left: -70px;
+    border-radius: 3px;
+    transform: rotate(-17deg);
+    -ms-transform: rotate(-17deg);
+    -webkit-transform: rotate(-17deg);
+    
+  
+}
+
+#rectangle2:hover {
+    -ms-transform: scale(2, 3); /* IE 9 */
+    -webkit-transform: scale(2, 3); /* Safari */
+    transform: scale(2, 3);
+
+}

@@ -1,0 +1,83 @@
+body {
+    font-family: sans-serif; 
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    padding: 8px; 
+}
+
+#backdrop {
+    background-color: #f1f0f0;
+    position: absolute;
+    height: 1000px;
+    width: 100%;  
+    
+}
+
+#line {
+    background-color: white;
+    height: 3px;
+    width: 80%;
+    margin: auto; 
+}
+
+#navbar {
+    text-transform: uppercase;
+    font-weight: 500;
+    display: table;
+    width: 80%;
+    margin: auto;
+}
+
+#backdrop span {
+color: orange; 
+}
+
+
+   
+#home-about-contact {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#folio {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.socialm-style {
+    display: table-cell;
+    padding-left: 15px;
+    line-height: inherit; 
+}
+
+.socialm-style i {
+   
+}
+
+#description {
+    position: relative; 
+    top: 180px; 
+    left: 10%; 
+}
+
+#description h3 {
+    font-weight: 100;
+}
+
+#description h1 {
+    font-weight: 800;
+    line-height: 0em;
+}
+
+#description p {
+    padding-top: 10px;
+    width: 50%;
+    color: grey; 
+}
